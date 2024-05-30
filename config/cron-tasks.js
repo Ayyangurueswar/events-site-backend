@@ -7,7 +7,7 @@ module.exports = {
             return events;
         },
         options: {
-            rule: "13 * * * *",
+            rule: "*/13 * * * *",
         }
     }
 }
